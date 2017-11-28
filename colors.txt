@@ -1,0 +1,7 @@
+Colors for Mastermind
+
+Yellow: #ebf22e
+Blue: #1050b7
+Red: #c6110d
+Green: #199915
+Purple: #6b2cc9

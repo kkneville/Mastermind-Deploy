@@ -1,0 +1,108 @@
+body {
+
+}
+
+h1 {
+}
+
+#instructions {
+  text-align: left;
+}
+
+#howto {
+  color: ;
+}
+
+#howto:hover {  
+  font-weight: bold;
+}
+
+.start, .restart {
+  width: 90px;
+  height: 45px;
+  margin-bottom: 20px;
+  background-color: #2d9331;
+  color: white;
+}
+
+.placeholder {
+  width: 45px;
+  display: inline-block;
+  vertical-align: top;
+  margin-bottom: 10px;
+  margin-right: 5px;
+}
+
+#controls:nth-child(1) {
+  margin-top: 100px;
+}
+
+button {
+  width: 50px;
+  height: 20px;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+}
+
+.guess {
+  width: 35px;
+  height: 35px;
+  border-radius: 50px;
+  background-color: rgb(216, 216, 216);
+}
+
+
+.submit {
+  width: 45px;
+  font-weight: bold;
+  vertical-align: top;
+  height: 30px;
+  display: inline-block;
+  background-color: #e58609;
+  color: white;
+}
+
+
+#game_board {
+  display: inline-block;
+  border-width: 1px;
+}
+
+#solution {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.guess_row {
+  display: inline-block;
+}
+
+.guess_board {
+
+  display: inline-block;
+  text-align: center;
+}
+
+#response_column {
+  display: inline-block;
+}
+
+.response {
+  width: 10px;
+  height: 14px;
+  border-radius: 50px;
+  border-color: rgb(128, 128, 128);
+  background-color: rgb(128, 128, 128);
+  display: inline-block;
+}
+
+.response_row {
+  width: 40px;
+  display: inline-block;
+  margin-bottom: 2px;
+}
+
+.guess_row button {
+  font-size: 10px;
+}
