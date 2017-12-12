@@ -16,19 +16,40 @@
 
 <div class="container-fluid text-center">
   <div class="row">
-    <div class="col-sm-5"></div>
-    <div class="col-sm-2 text-center">
+    <div class="col-sm-4"></div>
+    <div class="col-sm-4 text-center">
 
   <h1> Mastermind </h1>
+  <p><a href="http://54.144.118.114/#games">k[n] games</a></p>  
+
   <div id="controls">
-      <p id="howto">(How to Play)</p>
+      <p id="howto">Instructions</p>
       <div id="instructions">
-        <p>Click on the buttons to make your guess, then submit.</p> 
-        <p>For any guess that is the correct color and in the correct location, you will see one black dot in the response key. For any that are the correct color but not in the correct location, you will see a white dot in the solution key. </p>
+
+        <p>To win: correctly guess the randomly generated sequence of 4 colours to win the game.</p>
+
+        <p>Tap the circles to make a guess. <img src="img/guess.jpg"></p>
+
+        <p> Submit your guess by tapping the guess button. <img src="img/guessbutton.jpg"></p> 
+
+        <p>After you submit a guess, a response key will appear next to your guess row.</p>
+
+        <p>Example response: <img src="img/response.jpg"></p>
+
+        <p>Black = correct colour and correct position </p>
+        <p>White = correct colour but wrong position </p>  
+        <p>Grey = incorrect</p>
+
+        <p> In the above example, the player has two dots that are in the right place and the right colour, one that is the right colour but wrong place, and one that is the wrong colour entirely.
+
+        <p> If you guess correctly or submit the last guess row, the game will end and the answer key will be revealed below.</p>
+        <p><img src="img/solution.jpg"></p> 
+
         <p> You have 8 guesses.</p>
+
       </div>
       <button class="start">Start</button>
-      <button class="restart">Restart</button>
+      <button class="restart">Clear</button>
   </div>
 
 
@@ -141,7 +162,7 @@
           <button class="response response4"></button>
         </div>
       </div>
-
+      <p> Last Guess </p>  
       <div class="guess_row">
         <div class="placeholder">
           <button class="submit last_guess">Guess</button></div>
@@ -158,7 +179,7 @@
       </div>
 
     </div>
-
+    <p> Solution </p>
     <div id="board-header">
       <div id="solution">
         <button class="guess solution solution1"></button>
@@ -172,7 +193,7 @@
 
 
 </div>
-<div class="col-sm-5"></div>
+<div class="col-sm-4"></div>
 </div>
 </div>
 
